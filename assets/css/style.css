@@ -1,16 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css2?family=Lato:400');
 
 header {
     margin: 0;
 }
 
+body {
+    font-family: Lato;
+}
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+h2{
+    font-family: Lato;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}
+
 .logo {
     background: url("../images/atomic_logo_download.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
+    float: left;
+    font-size: 280%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #777777;
+}
+
+.active{
+    border-bottom: 1px solid #777777;
 }
