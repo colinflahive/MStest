@@ -25,6 +25,15 @@ h2{
 
 }
 
+.bg-light{ 
+    background-color: #ffc107!important;
+    color: #ffffff;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
 #menu li {
     float: right;
     margin-right: 30px;
