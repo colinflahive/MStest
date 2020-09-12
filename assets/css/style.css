@@ -26,7 +26,7 @@ h2{
 }
 
 .logo{
-    height: auto;
+    height: 50%;
     width: auto;
     position: relative;
 }
@@ -36,9 +36,6 @@ h2{
     color: #ffffff;
 }
 
-#navbarNav {
-    justify-content: flex-end;
-}
 
 #menu li {
     float: right;
