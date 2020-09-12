@@ -25,6 +25,12 @@ h2{
 
 }
 
+.logo{
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
 .bg-light{ 
     background-color: #ffc107!important;
     color: #ffffff;
