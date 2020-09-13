@@ -11,33 +11,12 @@ body {
         color:#777777;
 }
 
-h2{
-    font-family: Lato;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #555555;
-}
-
-#menu {
-    font-size: 110%;
-    list-style: none;
-    letter-spacing: 4px;
-
-}
-
-.logo{
-    height: 50%;
-    width: auto;
-    position: relative;
-}
-
 .bg-light{ 
     background-color: #ffc107!important;
-    color: #ffffff;
+    
 }
 
-
-#menu li {
-    float: right;
-    margin-right: 30px;
+img{
+    height: 100px;
+    width: 100px;
 }
