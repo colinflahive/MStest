@@ -24,15 +24,25 @@
   justify-content: space-around;
   margin: 10px 5px;
 }
+
 @media (min-width: 768px) {
   .top-row {
     display: inline-flex;
-  }
-  .btn-row {
+}
+  
+.btn-row {
     display: inline-flex;
-  }
-  .banner {
+}
+  
+.banner {
     display: flex;
     justify-content: space-between;
-  }
+}
+
+img {
+    border-radius: 100%;
+}
+
+div.container{
+    background-color: cyan;
 }
