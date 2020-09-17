@@ -75,3 +75,15 @@ h2 {
     text-transform: uppercase;
 }
 
+.segment-two a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-two a i{
+    font-size: 20px;
+    color:#fff;
+    padding: 10px 12px;
+}
