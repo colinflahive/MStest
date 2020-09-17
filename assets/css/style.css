@@ -58,11 +58,14 @@ h2 {
     color: #fff;
     font-size: 18px;
     text-align: center;
-    
+      
 }
 .footer-top {
     background: #111;
-    padding: 80px 0;
+    padding: 80px 0px;
+}
+.row{
+    padding-bottom: 10px;
 }
 .segment-one h2 {
     font-family: Lato;
@@ -70,11 +73,17 @@ h2 {
     letter-spacing: 3px;
     margin: 10px 0;
     text-transform: uppercase;
+    
 }
-
+.segment-one span{
+    font-size: 10px;
+    display: block;
+    width: 100%;
+}
 .segment-one p{
     font-size: 10px;
 }
+
 
 .segment-two h2 {
     font-family: Lato;
@@ -82,6 +91,10 @@ h2 {
     margin: 10px 0;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+a {
+    padding-bottom: 10px;
 }
 
 .segment-two a{
