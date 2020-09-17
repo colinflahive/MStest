@@ -46,3 +46,32 @@ img {
 div.container{
     background-color: cyan;
 }
+
+</*-----Footer------*/>
+p {
+    color:#999;
+    line-height: 25px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 18px;
+}
+.footer-top {
+    background: #111;
+    padding: 80px 0;
+}
+.segment-one h2 {
+    font-family: Lato;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.segment-two h2 {
+    font-family: Lato;
+    color: #fff;
+    text-transform: uppercase;
+}
+
