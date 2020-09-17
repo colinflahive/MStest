@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 .navbar-brand img {
   height: 60px;
@@ -49,13 +50,15 @@ div.container{
 
 </*-----Footer------*/>
 p {
-    color:#999;
-    line-height: 25px;
+    color: #999;
+    min-height: 120px;
 }
 
 h2 {
     color: #fff;
     font-size: 18px;
+    text-align: center;
+    
 }
 .footer-top {
     background: #111;
@@ -69,9 +72,15 @@ h2 {
     text-transform: uppercase;
 }
 
+.segment-one p{
+    font-size: 10px;
+}
+
 .segment-two h2 {
     font-family: Lato;
     color: #fff;
+    margin: 10px 0;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -86,4 +95,16 @@ h2 {
     font-size: 20px;
     color:#fff;
     padding: 10px 12px;
+}
+
+.segment-three h2 {
+    font-family: Lato;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.segment-three p {
+    font-size: 10px;
 }
