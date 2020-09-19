@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
+body{
+    background-color: #eb2a2a;
+    font-family: Lato;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,9 +14,16 @@
 .navbar-brand img {
   height: 60px;
 }
+
+h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #fafafa;
+}
 .top-row {
   display: flex;
-  text-align: center;
+  
   align-items: center;
   justify-content: space-around;
   padding: 10px;
@@ -19,6 +31,7 @@
 }
 .banner {
   align-items: center;
+  background-color: grey;
 }
 .btn-row {
   display: flex;
@@ -47,8 +60,12 @@ img {
 div.container{
     background-color: cyan;
 }
+.navbar-collapse {
+    justify-content: center;
+}
 
-</*-----Footer------*/>
+
+</*-------------------------Footer------------------*/>
 p {
     color: #999;
     min-height: 120px;
@@ -97,7 +114,6 @@ h2 {
 a {
     padding-bottom: 10px;
 }
-
 .segment-two a{
     background: #494848;
     width: 40px;
