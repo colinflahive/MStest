@@ -24,17 +24,16 @@ h1{
 }
 
 .top-row {
-  display: flex;
-  
-  align-items: center;
+  text-align: center;
   justify-content: space-around;
   padding: 10px;
-  margin: 0;
+  margin: 0px;
 }
 .banner {
   align-items: center;
   background-color: grey;
 }
+
 .btn-row {
   display: flex;
   justify-content: space-around;
@@ -90,6 +89,8 @@ h2 {
 }
 .row{
     padding-bottom: 10px;
+    text-align: center;
+    padding: 15px;
 }
 .segment-one h2 {
     font-family: Lato;
