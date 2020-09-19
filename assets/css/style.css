@@ -6,14 +6,14 @@ body{
 }
 
 * {
-  
   margin: 0;
   box-sizing: border-box;
-  
-}
+  }
+
 .navbar-brand img {
   height: 60px;
 }
+
 
 h1{
     font-size: 3.5rem;
