@@ -6,10 +6,10 @@ body{
 }
 
 * {
-  padding: 0;
+  
   margin: 0;
   box-sizing: border-box;
-  text-align: center;
+  
 }
 .navbar-brand img {
   height: 60px;
@@ -20,7 +20,9 @@ h1{
     text-transform: uppercase;
     text-align: justify;
     color: #fafafa;
+    font-family: bangers;
 }
+
 .top-row {
   display: flex;
   
@@ -42,6 +44,7 @@ h1{
 @media (min-width: 768px) {
   .top-row {
     display: inline-flex;
+    
 }
   
 .btn-row {
@@ -64,6 +67,9 @@ div.container{
     justify-content: center;
 }
 
+</*-------------------------Gallery------------------*/>
+
+
 
 </*-------------------------Footer------------------*/>
 p {
@@ -74,9 +80,9 @@ p {
 h2 {
     color: #fff;
     font-size: 18px;
-    text-align: center;
-      
+    text-align: center;     
 }
+
 .footer-top {
     background: rgb(128, 4, 4);
     padding: 25px 0px
@@ -98,6 +104,7 @@ h2 {
     display: block;
     width: 100%;
     color: #fafafa;
+    text-align: center;
 }
 .segment-one p{
     font-size: 10px;
@@ -109,10 +116,13 @@ h2 {
     margin: 10px 0;
     letter-spacing: 3px;
     text-transform: uppercase;
+    
 }
 
 a {
     padding-bottom: 10px;
+    
+    
 }
 .segment-two a{
     background: #494848;
@@ -120,11 +130,14 @@ a {
     height: 40px;
     display: inline-block;
     border-radius: 50%;
+    
 }
+
 .segment-two a i{
     font-size: 20px;
     color:#fff;
     padding: 10px 12px;
+    
 }
 
 .segment-three h2 {
@@ -132,10 +145,11 @@ a {
     color: #fff;
     letter-spacing: 3px;
     margin: 10px 0;
-    text-transform: uppercase;
+    text-transform: uppercase;    
 }
 
 .segment-three p {
     font-size: 10px;
     color: #fafafa;
+    text-align: center;
 }
