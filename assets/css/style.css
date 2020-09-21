@@ -66,11 +66,21 @@ div.container{
     justify-content: center;
 }
 
+</*-------------------------Quotes------------------*/>
 
+.text-uppercase {
+    font-size: 15px;
+}
 
+.blockquote {
+    font-size: 15px;
+}
 
-</*-------------------------Gallery------------------*/>
+blockquote-motivation {
+    font-size: 15x;
+}
 
+</*-------------------------Carousel------------------*/>
 
 
 </*-------------------------Footer------------------*/>
@@ -125,8 +135,7 @@ h2 {
 
 a {
     padding-bottom: 10px;
-    
-    
+   
 }
 .segment-two a{
     background: #494848;
