@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     
     <title>Atomic Fitness</title>
@@ -99,13 +100,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/cover_image_woman.jpg" class="d-block w-100" alt="Female Cover Photo">
+      <img src="assets/images/cover_image_woman.jpg" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/cover_image_men.jpg" class="d-block w-100" alt="Male Cover Photo">
+      <img src="assets/images/cover_image_men.jpg" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/cover_image_seniors.jpg" class="d-block w-100" alt="Seniors Cover Photo">
+      <img src="assets/images/cover_image_seniors.jpg" class="d-block w-100">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -118,14 +119,54 @@
   </a>
 </div>
 
+<!--CAROUSEL END-->
 
-    <!--CAROUSEL END-->
+<!--------------------CARDS--------------------->
+
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/cover_image_men.jpg" class="card-img-top" alt="cardio card cover">
+  <div class="card-body">
+    <h5 class="card-title">Cardio</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">See Facilities</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/cover_image_men.jpg" class="card-img-top" alt="strength card cover">
+  <div class="card-body">
+    <h5 class="card-title">Strength</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">See Machines</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/cover_image_men.jpg" class="card-img-top" alt="studio card cover">
+  <div class="card-body">
+    <h5 class="card-title">Studio</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">See Timetable</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/cover_image_men.jpg" class="card-img-top" alt="gallery card cover">
+  <div class="card-body">
+    <h5 class="card-title">Gallery</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">See Photos</a>
+  </div>
+</div>
+
+<!-----CARDS END------>
+    
 
     <footer>
       <div class="footer-top">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 segment-one">
+            <div class="col-md-4 col-sm-6 col-xs-12 address-section">
               <h2>Address</h2>
               <span>
                 Atomic Fitness<br />
@@ -135,18 +176,19 @@
                 D02 A272<br />
               </span>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 segment-two">
+            <div class="col-md-4 col-sm-6 col-xs-12 social-section">
               <h2>Follow Us</h2>
               <a href="#"><i class="fa fa-facebook"></i></a>
               <a href="#"><i class="fa fa-twitter"></i></a>
               <a href="#"><i class="fa fa-instagram"></i></a>
               <a href="#"><i class="fa fa-youtube"></i></a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
+            <div class="col-md-4 col-sm-6 col-xs-12 contact-section">
               <h2>Contact</h2>
               <p>
+                Opening Hours: Mon-Sat 06:00-22:00<br>
+                               Sun 08:00-20:00<br>
                 email: info@atomicfitness.com<br />
-                <br />
                 phone: 353 1 987 6543
               </p>
             </div>
@@ -261,5 +303,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
   </body>
 </html>
