@@ -66,24 +66,29 @@ div.container{
     justify-content: center;
 }
 
-</*-------------------------Quotes------------------*/>
+/*-------------------------Quotes------------------*/
 
-.text-uppercase {
-    font-size: 15px;
+.mission-heading {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.mission-blockquote {
+    font-size: 12px;
 }
 
 .blockquote {
-    font-size: 15px;
+    font-size: 12px;
+}
+.motivation-heading {
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-blockquote-motivation {
-    font-size: 15x;
-}
-
-</*-------------------------Carousel------------------*/>
+/*-------------------------Carousel------------------*/
 
 
-</*-------------------------Footer------------------*/>
+/*-------------------------Footer------------------*/
 p {
     color: #999;
     min-height: 120px;
@@ -164,9 +169,9 @@ a {
     text-align: center;
 }
 
-</*-------------------------Gallery------------------*/>
+/*-------------------------Gallery------------------*/
 
-</*----------CARD------------------*/>
+/*----------CARD------------------*/
 
 .card {
     justify-content: space-between;
