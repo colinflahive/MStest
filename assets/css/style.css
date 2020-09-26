@@ -102,7 +102,7 @@ h2 {
 
 .footer-top {
     background: rgb(128, 4, 4);
-    padding: 25px 0px
+    padding: 25px 0px;
     color: #fafafa;
 }
 .row{
@@ -170,6 +170,19 @@ a {
 }
 
 /*-------------------------Gallery------------------*/
+
+.photos img{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 5px; 
+    width: 100%;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 /*----------CARD------------------*/
 
