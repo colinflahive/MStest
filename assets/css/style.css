@@ -45,6 +45,8 @@ h1.logo {
   margin: 10px 5px;
 }
 
+
+
 @media (min-width: 768px) {
   .top-row {
     display: inline-flex;
@@ -60,9 +62,6 @@ h1.logo {
     justify-content: space-between;
 }
 
-img {
-    border-radius: 100%;
-}
 
 div.container{
     background-color: cyan;
@@ -194,4 +193,5 @@ a {
 .card {
     justify-content: space-between;
 }
+
 
