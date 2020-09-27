@@ -15,23 +15,28 @@ body{
     border: 0;
 }
 
-h1{
+h1.logo {
     font-size: 3.5rem;
     text-transform: uppercase;
     text-align: justify;
+    letter-spacing: 3px;
     color: #fafafa;
     font-family: bangers;
 }
 
-.top-row {
-  text-align: center;
-  justify-content: space-around;
-  padding: 10px;
-  margin: 0px;
+#cta-buttons .btn{
+	float: right; 
+	clear: both;
+	margin-bottom: 5px;
+
 }
+
+.contact-button {
+	margin-right: 15px;
+}
+
 .banner {
-  align-items: center;
-  background-color: grey;
+    background-color: grey;
 }
 
 .btn-row {
