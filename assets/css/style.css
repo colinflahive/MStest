@@ -91,6 +91,39 @@ div.container{
 
 /*-------------------------Carousel------------------*/
 
+/*-------------------------Cards------------------*/
+
+.card-body {
+    padding: 0.5rem;
+    
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: center;
+    
+}
+
+.cardcolor1 {
+    background-color: #669999;
+}
+
+.cardcolor2 {
+    background-color: #cc6666; 
+}
+
+.cardcolor3 {
+    background-color: #cc9966;
+}
+
+.cardcolor4 {
+    background-color: #ccac66;
+}
 
 /*-------------------------Footer------------------*/
 p {
