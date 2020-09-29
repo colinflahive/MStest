@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
-/*  NAVBAR  */
 
 body{
     background-color: #eb2a2a;
     font-family: Lato;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
 }
 
 .navbar-brand img {
@@ -37,6 +47,8 @@ h1.logo {
 
 .banner {
     background-color: grey;
+        display: flex;
+        justify-content: space-between;
 }
 
 .btn-row {
@@ -57,12 +69,6 @@ h1.logo {
     display: inline-flex;
 }
   
-.banner {
-    display: flex;
-    justify-content: space-between;
-}
-
-
 div.container{
     background-color: cyan;
 }
@@ -72,14 +78,7 @@ div.container{
 
 /*-------------------------Quotes------------------*/
 
-.mission-heading {
-    font-size: 20px;
-    text-transform: uppercase;
-}
 
-.mission-blockquote {
-    font-size: 12px;
-}
 
 .blockquote {
     font-size: 12px;
@@ -97,7 +96,6 @@ div.container{
 
 .card-body {
     padding: 0.5rem;
-    
 }
 
 .card {
