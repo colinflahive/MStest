@@ -91,6 +91,8 @@ div.container{
 
 /*-------------------------Carousel------------------*/
 
+
+
 /*-------------------------Cards------------------*/
 
 .card-body {
@@ -109,12 +111,21 @@ div.container{
     
 }
 
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 10 0%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
 .cardcolor1 {
     background-color: #669999;
 }
 
 .cardcolor2 {
     background-color: #cc6666; 
+    
 }
 
 .cardcolor3 {
@@ -139,7 +150,7 @@ h2 {
 
 .footer-top {
     background: rgb(128, 4, 4);
-    padding: 25px 0px;
+    padding: 10px 0px;
     color: #fafafa;
 }
 .row{
