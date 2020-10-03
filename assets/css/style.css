@@ -17,10 +17,23 @@ body{
   height: 60px;
 }
 
+.navbarNAV{
+    text-align: right;
+    float: right;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
 h1.logo {
     font-size: 3.5rem;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 3px;
     color: #fafafa;
     font-family: bangers;
@@ -30,9 +43,9 @@ h1.logo span{
 }
 
 .banner {
-    background-color: grey;
-        display: flex;
-        justify-content: space-between;
+    background-color: rgb(204, 106, 106);
+    display: flex;
+    justify-content: space-between;
 }
 
 #cta-buttons .btn{
