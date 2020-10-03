@@ -21,10 +21,6 @@ body{
   height: 60px;
 }
 
-.navbar .navbar-toggler {
-    border: 0;
-}
-
 h1.logo {
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -57,8 +53,6 @@ h1.logo {
   margin: 10px 5px;
 }
 
-
-
 @media (min-width: 768px) {
   .top-row {
     display: inline-flex;
@@ -77,8 +71,6 @@ div.container{
 }
 
 /*-------------------------Quotes------------------*/
-
-
 
 .blockquote {
     font-size: 12px;
@@ -106,7 +98,7 @@ div.container{
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     text-align: center;
-    
+    box-shadow: 5px 4px 0px #777;
 }
 
 .card-deck .card {
@@ -134,10 +126,26 @@ div.container{
     background-color: #ccac66;
 }
 
+/*-------------------------Gallery------------------*/
+
+
+.photos img {
+    /* border: 1px solid #fff; */
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 4px 0px #adb5bd;
+}
+
 /*-------------------------Footer------------------*/
 p {
     color: #999;
-    min-height: 120px;
+    min-height: 40px;
 }
 
 h2 {
@@ -151,6 +159,7 @@ h2 {
     padding: 10px 0px;
     color: #fafafa;
 }
+
 .row{
     padding-bottom: 10px;
     text-align: center;
@@ -164,12 +173,12 @@ h2 {
     text-transform: uppercase;
     
 }
-.address-section span{
+.address-section {
     font-size: 10px;
-    display: block;
     width: 100%;
     color: #fafafa;
     text-align: center;
+
 }
 
 .social-section h2 {

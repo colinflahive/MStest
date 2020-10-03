@@ -14,22 +14,27 @@
 
   <body>
     <!---------------NAV SECTION--------------->
-    <div class="nav-container">
-      <div class="banner">
-        <div class="top-row">
-          <a class="navbar-brand" href="/">
+    <div class="container">
+      <div class="row banner">
+   
+   <div class="col-12 col-md-4">
+    <a class="navbar-brand" href="/">
             <img src="assets\images\atomic_logo.jpg" alt="Atomic Fitness" />
           </a>
-          <h1 class="heading">Atomic Fitness</h1>
-        </div>
-        <div class="btn-row">
-          <button class="btn btn-success btn-m" data-toggle="modal" data-target="#signInModal">Members Log In</button>
-        </div>
-        <div class="btn-row">
-          <button class="btn btn-success btn-m" data-toggle="modal" data-target="#contactUsModal">Contact Us</button>
-        </div>
-      </div>
-    </div>
+   </div>
+   
+   <div class="col-12 col-md-4">
+    <h1 class="logo">Atomic Fitness</h1>
+   </div>
+   
+   <div class="col-12 col-md-4" id="cta-buttons">
+    <button class="btn btn-success btn-m" data-toggle="modal" data-target="#signInModal">Members Log In</button>
+	<br>
+	 <button class="btn btn-success btn-m contact-button" data-toggle="modal" data-target="#contactUsModal">Contact Us</button>
+	
+   </div>
+   
+   </div>
     
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -43,17 +48,18 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Timetable</a>
+            <a class="nav-link" href="timetable.html">Timetable</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Studio</a>
-          </li>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>  
         </ul>
       </div>
     </nav>
+
     
     <!---------------GALLERY SECTION--------------->
 
@@ -103,28 +109,30 @@
       <div class="footer-top">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 segment-one">
+            <div class="col-md-4 col-sm-6 address-section">
               <h2>Address</h2>
-              <span>
+              
                 Atomic Fitness<br />
                 103 Main Street<br />
                 Carrickstown<br />
                 Dublin 2<br />
                 D02 A272<br />
-              </span>
+              
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 segment-two">
+            <div class="col-md-4 col-sm-6 social-section">
               <h2>Follow Us</h2>
               <a href="#"><i class="fa fa-facebook"></i></a>
               <a href="#"><i class="fa fa-twitter"></i></a>
               <a href="#"><i class="fa fa-instagram"></i></a>
               <a href="#"><i class="fa fa-youtube"></i></a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
+            <div class="col-md-4 col-sm-6 contact-section">
               <h2>Contact</h2>
               <p>
+                Opening Hours: <br />
+                Mon-Sat 06:00-22:00<br />
+                Sun 08:00-20:00<br />
                 email: info@atomicfitness.com<br />
-                <br />
                 phone: 353 1 987 6543
               </p>
             </div>
