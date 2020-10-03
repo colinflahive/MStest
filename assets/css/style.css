@@ -12,10 +12,6 @@ body{
     margin: 0;
     padding: 0;
 }
-.container {
-    max-width: 1170px;
-    margin: auto;
-}
 
 .navbar-brand img {
   height: 60px;
@@ -29,16 +25,8 @@ h1.logo {
     color: #fafafa;
     font-family: bangers;
 }
-
-#cta-buttons .btn{
-	float: right; 
-	clear: both;
-	margin-bottom: 5px;
-
-}
-
-.contact-button {
-	margin-right: 15px;
+h1.logo span{
+    color:#eb2a2a;
 }
 
 .banner {
@@ -47,25 +35,22 @@ h1.logo {
         justify-content: space-between;
 }
 
+#cta-buttons .btn{
+	float: right; 
+	clear: both;
+	margin-bottom: 5px;
+}
+
+.contact-button {
+	margin-right: 15px;
+}
+
 .btn-row {
   display: flex;
   justify-content: space-around;
   margin: 10px 5px;
 }
 
-@media (min-width: 768px) {
-  .top-row {
-    display: inline-flex;
-    
-}
-  
-.btn-row {
-    display: inline-flex;
-}
-  
-div.container{
-    background-color: cyan;
-}
 .navbar-collapse {
     justify-content: center;
 }
@@ -78,6 +63,9 @@ div.container{
 .motivation-heading {
     font-size: 20px;
     text-transform: uppercase;
+}
+.blockquote span {
+    color:#eb2a2a;
 }
 
 /*-------------------------Carousel------------------*/
@@ -191,9 +179,9 @@ h2 {
 
 a {
     padding-bottom: 10px;
-   
 }
-.social-section a{
+
+.social-section i{
     background: #494848;
     width: 40px;
     height: 40px;
@@ -205,9 +193,7 @@ a {
 .social-section a i{
     font-size: 20px;
     color:#fff;
-    padding: 10px 12px;
-    border-radius: 40px;
-    
+    padding: 10px 12px;    
 }
 
 .contact-section h2 {
