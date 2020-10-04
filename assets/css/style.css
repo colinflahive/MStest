@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: #190588;
+    background-color: #0a0236;
     font-family: Lato;
     margin: 0px;
     padding: 0px;
@@ -106,20 +106,20 @@ h1.logo span{
 }
 
 .cardcolor1 {
-    background-color: #669999;
+    background-color: #a4fafa;
 }
 
 .cardcolor2 {
-    background-color: #cc6666; 
+    background-color: #a4fafa; 
     
 }
 
 .cardcolor3 {
-    background-color: #cc9966;
+    background-color: #a4fafa;
 }
 
 .cardcolor4 {
-    background-color: #ccac66;
+    background-color: #a4fafa;
 }
 
 /*-------------------------Gallery------------------*/
@@ -239,7 +239,7 @@ a {
     justify-content: space-between;
 }
 
-/*----------CONTACT US CARDS------------------*/
+/*----------CONTACT Form------------------*/
 
 .offers {
     -ms-flex: 1 0 0%;
@@ -247,4 +247,30 @@ a {
     margin-right: 15px;
     margin-bottom: 10px;
     margin-left: 15px;
+}
+
+.contact-header {
+    font-family: Lato;
+    color: #fafafa;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form-group{
+    color:#fafafa;
+}
+
+.form-group h5 {
+    text-transform: uppercase;
+    color: #fafafa;
+}
+
+.center-form {
+    padding-top: 15px;
+    margin: 0 auto;
+    max-width: 70%;
 }
