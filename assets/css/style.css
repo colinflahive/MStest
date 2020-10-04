@@ -2,15 +2,10 @@
 
 
 body{
-    background-color: #eb2a2a;
+    background-color: #190588;
     font-family: Lato;
     margin: 0px;
     padding: 0px;
-}
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .navbar-brand img {
@@ -244,4 +239,12 @@ a {
     justify-content: space-between;
 }
 
+/*----------CONTACT US CARDS------------------*/
 
+.offers {
+    -ms-flex: 1 0 0%;
+    flex: 10 0%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
